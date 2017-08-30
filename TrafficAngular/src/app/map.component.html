@@ -1,0 +1,20 @@
+<div></div>
+<img src="./assets/images/menu160.png" (click)="directionToggle()" id="direction"/>
+<img src="./assets/images/settings160.png" (click)="menuToggle()" id="settings"/>
+
+<!--  <input placeholder="Upišite ime mjesta"> -->
+<button (click)="trackingToggle()" [class.selected]="tracker" id="tracking">Toggle tracking </button>
+<!-- 
+<agm-map [latitude]="lat"
+   [longitude]="lng" [streetViewControl]="false"
+   [zoom]=10>
+ 
+  <agm-marker *ngFor="let problem of Problems" 
+  [latitude]="problem.lat" [longitude]="problem.lng" 
+  [iconUrl]="Causes[problem.cause]">  </agm-marker>
+
+</agm-map> 
+
+ 
+{{lat}} ###### {{lng}}
+-->

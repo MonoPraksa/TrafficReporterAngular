@@ -1,0 +1,9 @@
+<div [hidden]="communicationService.menuStateHidden">
+
+      <label *ngFor="let cause of causesService.causes"><input type="checkbox" value="{{cause.Id}}"> {{cause.Name}}</label> 
+
+
+
+<!-- <button (click)="goBack()">Back</button> -->
+<button (click)="apply()">Apply</button>
+</div> 

@@ -1,0 +1,11 @@
+input{
+    margin-bottom: 1em;
+}
+button{
+    float: right;
+}
+
+label{
+    text-shadow:  1px 1px #FFFFFF;
+    display: block;
+}

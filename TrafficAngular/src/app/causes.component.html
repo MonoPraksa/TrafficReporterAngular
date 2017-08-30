@@ -1,0 +1,5 @@
+  <div>
+  <span *ngFor="let cause of causesService.causes" (click)="onSelect(cause.Id)">
+    <img src="{{cause.IconUri}}">
+  </span>
+  </div> 

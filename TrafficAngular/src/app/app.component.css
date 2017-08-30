@@ -1,0 +1,27 @@
+map {
+    height: 90%; 
+}
+
+causes{
+    height: 10%;
+    top:90%;
+}
+
+map, causes, direction, menu{
+    padding: 0;
+    position: absolute;
+    margin: 0px;
+    width: 100%;    
+}
+
+direction, menu{
+    top: 0px;
+    left: 25%;   
+    width: 50%;
+    background: rgba(127,127,127,0.4);
+}
+
+causes{
+    background-color: lightcyan;
+}
+
